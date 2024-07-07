@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScriptStudy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="site-title"><i class="fa-solid fa-laptop-code"></i> ScriptStudy</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><i class="fa-solid fa-house"></i><a href="#home">Home</a></li>
+                    <li><i class="fa-solid fa-info-circle"></i><a href="#about-us">About Us</a></li>
+                    <li><i class="fa-solid fa-headset"></i><a href="#contact-us">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="background"></div>
+            <div class="content">
+                <h1>Welcome to ScriptStudy</h1>
+                <p>Unlock the power of possibilities through code; your journey to mastering the digital world begins here.</p>
+        
+                <button onclick="scrollToSection('get-started')">Get Started </button>
+                <a href="intern.html">registration</a>
+            </div>
+        </section>
+
+        <section id="get-started">
+            <div class="section-content">
+                <div class="section-item">
+                    <h3><i class="fa-solid fa-video"></i>Previous year question paper</h3>
+                    <img src="https://uietmdu.in/wp-content/uploads/2023/12/B.Tech-Previous-Year-Question-Papers-3-1.jpg" alt="Papers">
+                    <a href="https://www.rgpvonline.com/btech-cse-question-papers.html">Papers</a>
+                </div>
+
+                <div class="section-item">
+                    <h3><i class="fa-solid fa-book"></i> RGPV Notes</h3>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4T8tyJd-Jx4Ycba2uzlXXeza0ce9y8WxlWsl9ZP-WWthiyZk2dpy2pp5QoTaFz9889U3-83V8Rj2Qc30lpvDqYlC1Mljfb8h6b0UTkAy9r-ukBa0FJruasOiYfGJFIINMPtIPpBKJMxX7/w1200-h630-p-k-no-nu/rgpvnotes.in+rgpv+notes+project++-+Aaditya+Jain+Blog+-+Aditya+Jain+-+AadityaJain-Dev.png" height="138" alt="Study Notes">
+                    <a href="notes.html">Notes</a>
+                </div>
+
+                <div class="section-item">
+                    <h3><i class="fa-solid fa-pen"></i> Handwritten Notes</h3>
+                    <img src="https://s3.amazonaws.com/wordpress-production/wp-content/uploads/2016/08/handwriting-and-memory.jpg" height="138" alt="Handwritten Notes">
+                    <p>Our notes are free of cost</p>
+                </div>
+
+                <div class="section-item">
+                    <h3><i class="fa-solid fa-briefcase"></i>Assessment</h3>
+                    <img src="https://www.turnitin.com/assets/images/resources/intro-images/assessment-strategies-in-the-classroom-raising-the-bar-for-learning-turnitin-blog.png" height="138" alt="Assessment">
+                    <p>Complete your assessment and get certificates</p>
+                    <a href="quiz.html">Quiz</a>
+                </div>
+
+                <div class="section-item">
+                    <h3><i class="fa-solid fa-certificate"></i> Learning Certificates</h3>
+                    <img src="https://m.media-amazon.com/images/I/61UOTzyXa8L._AC_UF894,1000_QL80_.jpg" height="138" alt="Learning Certificates">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-us">
+            <h2><i class="fa-solid fa-phone"></i> Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>At ScriptStudy, we believe that coding is the language of the future. Our mission is to empower individuals by providing the tools and resources they need to excel in the world of technology. Whether you're a beginner looking to get started or an experienced developer aiming to sharpen your skills, we have something for you.</p>
+            <p>Founded by a team of passionate educators and industry professionals, ScriptStudy offers a wide range of tutorials, hands-on projects, and mentorship opportunities. Our platform is designed to make learning to code accessible, engaging, and effective.</p>
+            <p>Join us on a journey of discovery and innovation. Learn at your own pace, connect with a community of like-minded learners, and build projects that make a difference. At ScriptStudy, we don't just teach code; we inspire future innovators.</p>
+            <p><strong>Our Values:</strong></p>
+            <ul>
+                <li><strong>Excellence:</strong> Striving for the highest standards in everything we do.</li>
+                <li><strong>Innovation:</strong> Encouraging creativity and new ideas.</li>
+                <li><strong>Community:</strong> Fostering a supportive and collaborative learning environment.</li>
+                <li><strong>Integrity:</strong> Acting with honesty and transparency.</li>
+                <li><strong>Inclusivity:</strong> Making coding education accessible to everyone, regardless of background or experience.</li>
+            </ul>
+        </section>
+
+        <section id="team">
+            <h2>Our Team</h2>
+            <ul class="team-list">
+                <li>
+                    <span>Ajay Agnihotri</span>
+                    <span>developer</span>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ajay-agnihotri-27839625a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@ScriptStudy9555" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/invites/contact/?igsh=hradm5izxeic&utm_content=lyllvz8" target="_blank">
+                            <i class="fa-brands fa-instagram"></i> 
+                        </a>
+                        <a href="https://x.com/Mragnihotri9555?t=DruqkqpGpTCzFNwvz1wglg&s=08" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <span>Deeksha Mehra</span>
+                    <span>designer</span>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/deeksha-mehra-33bb762a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i> 
+                        </a>
+                        <a href="https://www.youtube.com/@ScriptStudy9555" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/deeksha_vij_477?igsh=MThsZmtyMjRndmttMA==" target="_blank">
+                            <i class="fa-brands fa-instagram"></i> 
+                        </a>
+                        <a href="https://x.com/Deeksha_Mehra04?t=Z1Q2jBNqHGpTCggGNi9m2g&s=08" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill out all fields.');
+            } else {
+                alert(`Thank you for your message, ${name}! We will get back to you shortly.`);
+            }
+        });
+    </script>
+</body>
+</html>

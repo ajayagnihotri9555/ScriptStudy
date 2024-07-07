@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="submit_form.php" method="POST">
+        <fieldset>
+            <legend><h1>Registration Form</h1></legend>
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div>
+                <label for="blood-group">Blood Group:</label>
+                <select id="blood-group" name="blood-group" required>
+                    <option value="" disabled selected>Select your blood group</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="A+">A+</option>
+                    <option value="B+">B+</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required pattern="[0-9]{10}">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div>
+                <label for="college">College:</label>
+                <input type="text" id="college" name="college" placeholder="Search your college name">
+                <select id="college-select" name="college-select">
+                    <option value="" disabled selected>Select your college</option>
+                    <option value="Shri Ram Institute of Technology Jabalpur">Shri Ram Institute of Technology Jabalpur</option>
+                    <option value="Gyan Ganga College">Gyan Ganga College</option>
+                    <option value="Global">Global</option>
+                    <option value="JEC">JEC</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" placeholder="Find branch">
+                <select id="branch-select" name="branch-select">
+                    <option value="" disabled selected>Select your branch</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Computer Engineering">Computer Engineering</option>
+                    <option value="Civil Engineering">Civil Engineering</option>
+                    <option value="Electronic Engineering">Electronic Engineering</option>
+                    <option value="Electrical Engineering">Electrical Engineering</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" placeholder="Find your state">
+            </div>
+
+            <div>
+                <label for="learning">Learning:</label>
+                <input type="text" id="learning" name="learning">
+                <select id="learning-select" name="learning-select">
+                    <option value="" disabled selected>Select your learning focus</option>
+                    <option value="C++">C++</option>
+                    <option value="Java">Java</option>
+                    <option value="C++ with DSA">C++ with DSA</option>
+                    <option value="Java with DSA">Java with DSA</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="App Development">App Development</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="photo">Photo:</label>
+                <input type="file" id="photo" name="photo">
+            </div>
+
+            <div>
+                <label for="reason">Why you want to learn with us?</label>
+                <input type="text" id="reason" name="reason" placeholder="Short answer">
+            </div>
+
+            <div>
+                <label for="career-goals">How does this learning align with your career goals?</label>
+                <input type="text" id="career-goals" name="career-goals" placeholder="Short answer">
+            </div>
+
+            <div>
+                <label for="reference">How did you hear about this learning platform?</label>
+                <input type="text" id="reference" name="reference" placeholder="Source">
+                <select id="reference-select" name="reference-select">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="College">College</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="Friends">Friends</option>
+                </select>
+            </div>
+
+            <!-- Buttons Container -->
+            <div class="buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+
+            <br>
+            <a href="index.html">Go to Index Page</a>
+        </fieldset>
+    </form>
+</body>
+</html>
